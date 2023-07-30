@@ -1,0 +1,95 @@
+@font-face {
+    font-family: mercoSul;
+    src: url(./font/FE-FONT.TTF);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: mercoSul;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(128deg, rgba(2, 0, 36, 1) 0%, rgba(32, 32, 167, 1) 0%, rgba(30, 46, 174, 1) 45%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    width: 700px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.projeto {
+    width: 100%;
+    height: auto;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.placa {
+    border-radius: 25px;
+    height: 400px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+}
+
+.placaHeader {
+    height: 25%;
+    background-color: #003399;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.placaHeader h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.placaBody {
+    height: 75%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.placaValor {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-family: mercoSul;
+    font-weight: bold;
+    font-size: 110px;
+}
+
+.texto {
+    position: relative;
+    top: 70%;
+    font-family: mercoSul;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+#resultadoPlaca{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    width: 100px I !important;
+}
